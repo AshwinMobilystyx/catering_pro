@@ -3,7 +3,7 @@
 }
 
 :{$PORT} {
-    root * public
+    root * /app/public
 
     encode zstd br gzip
 
