@@ -3,10 +3,9 @@
 }
 
 :{$PORT} {
-    root public/
+    root * public
+
     encode zstd br gzip
 
-    php_server {
-        try_files {path} index.php
-    }
+    php_server
 }
