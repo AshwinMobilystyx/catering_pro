@@ -1,2 +1,5 @@
 *
 !.gitignore
+!index.php
+!.htaccess
+!.user.ini
