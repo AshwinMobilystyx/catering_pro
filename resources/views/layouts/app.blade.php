@@ -706,52 +706,7 @@
             scroll-behavior: auto !important
         }
     }
-    /* =========================================
-   HERO IMAGE FIX
-   ========================================= */
-
-.brand-hero {
-    position: relative;
-    overflow: hidden;
-    isolation: isolate;
-    min-height: 680px;
-}
-
-.brand-hero > picture {
-    position: absolute !important;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: 0;
-}
-
-.brand-hero .hero-media {
-    position: absolute !important;
-    inset: 0;
-    width: 100% !important;
-    height: 100% !important;
-    display: block !important;
-    object-fit: cover;
-    object-position: center;
-    z-index: 0;
-}
-
-.brand-hero .hero-overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-}
-
-.brand-hero .hero-content-new {
-    position: relative;
-    z-index: 2;
-}
-
-.brand-hero .hero-inner {
-    position: relative;
-    z-index: 2;
-}
+    
     </style>
 </head>
 
